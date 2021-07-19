@@ -8,19 +8,33 @@
 
 $(document).ready(function () {
 	var songs = [
+        {
+			title: "Just for a Moment (HSMTMTS | Disney+)",
+			artist: "Olivia Rodrigo, Joshua Bassett",
+			cover: "/img/cover_2.jpeg",
+			audioFile: "/music/m8.mp3",
+			color: "#cd4829"
+		},
+        {
+			title: "All I Want (HSMTMTS | Official Lyric Video | Disney+)",
+			artist: "Olivia Rodrigo",
+			cover: "/img/cover_2.jpeg",
+			audioFile: "/music/m6.mp3",
+			color: "#cd4829"
+		},
+        {
+			title: "Start of Something New (HSMTMTS | Nini Version | Disney+)",
+			artist: "Olivia Rodrigo",
+			cover: "/img/cover_2.jpeg",
+			audioFile: "/music/m4.mp3",
+			color: "#25323b"
+		},
 		{
 			title: " A Billion Sorrys (HSMTMTS | Disney+)",
 			artist: "Matt Cornett ",
 			cover: "/img/cover_2.jpeg",
 			audioFile: "/music/m3.mp3",
 			color: "#c3af50"
-		},
-		{
-			title: "Start of Something New (HSMTMTS | Nini Version | Disney+)",
-			artist: "Olivia Rodrigo",
-			cover: "/img/cover_2.jpeg",
-			audioFile: "/music/m4.mp3",
-			color: "#25323b"
 		},
 		{
 			title: "The Perfect Gift (HSMTMTS The Holiday Special | Disney+)",
@@ -30,22 +44,8 @@ $(document).ready(function () {
 			color: "#c1c1c1"
 		},
 		{
-			title: "All I Want (HSMTMTS | Official Lyric Video | Disney+)",
-			artist: "Olivia Rodrigo",
-			cover: "/img/cover_2.jpeg",
-			audioFile: "/music/m6.mp3",
-			color: "#cd4829"
-		},
-        {
-			title: "Just for a Moment (HSMTMTS | Disney+)",
-			artist: "Olivia Rodrigo, Joshua Bassett",
-			cover: "/img/cover_2.jpeg",
-			audioFile: "/music/m8.mp3",
-			color: "#cd4829"
-		},
-		{
-			title: "Elenco HSMTMTS",
-			artist: "Born to Be Brave (HSMTMTS | Acoustic | Disney+)",
+			title: "Born to Be Brave (HSMTMTS | Acoustic | Disney+)",
+			artist: "Elenco HSMTMTS",
 			cover: "/img/cover_2.jpeg",
 			audioFile: "/music/m7.mp3",
 			color: "#5d0126"
